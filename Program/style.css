@@ -1,10 +1,12 @@
+.clear{
+    clear: both;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: black;
 	background-image: url(IMG/BG.png);
     padding: 0;
     margin:0;
-    
 }
 
 .container{
@@ -19,6 +21,9 @@ body{
 .logo {
     font-size: xx-large;
     padding: 30px 0 30px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
 }
 
 nav ul {
@@ -57,16 +62,22 @@ article {
 }
 
 article p {
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     line-height: 1.5;  
 }
 article .konten {
     width: 23.5%;
-    height: auto;
-    margin: 5px 5px 5px 5px;
+    height: 500px;
+    margin: 5px;
     border-radius: 3px;
     border: 1px solid gainsboro;
     float: left;
+}
+.read-more {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
 }
 
 article .isi {
@@ -79,10 +90,12 @@ article .isi {
 }
 article .isi .judul {
     font-size: xx-large;
+    margin: 10px 0 10px 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
+
 article .isi p {
     margin-top: 0;
 }
@@ -100,6 +113,12 @@ article .konten img {
 article .konten:hover {
     opacity:0.9;
 
+}
+article .konten .judul {
+    height: 50px;
+}
+.content{
+    
 }
 article .konten .judul a {
     margin-left: 5px;
